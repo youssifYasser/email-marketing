@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const handleIntersection = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          console.log('image entry', entry)
           const element = entry.target
           element.classList.add('is-visible')
           observer.unobserve(entry.target)
