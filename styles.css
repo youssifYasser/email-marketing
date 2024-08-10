@@ -306,55 +306,54 @@ h4 {
   direction: rtl;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1400px) {
   h1 {
-    font-size: calc(4.5 / (var(--font-scale-factor) * 3) * 1em);
+    font-size: calc(4.5 / (var(--font-scale-factor) * 1.5) * 1em);
     line-height: 1.3;
   }
 
   h2 {
-    font-size: calc(2.8 / (var(--font-scale-factor) * 3) * 1em);
+    font-size: calc(2.8 / (var(--font-scale-factor) * 1.5) * 1em);
   }
 
   h3 {
-    font-size: calc(2.1 / (var(--font-scale-factor) * 3) * 1em);
+    font-size: calc(2.1 / (var(--font-scale-factor) * 1.5) * 1em);
   }
 
   h4 {
-    font-size: calc(1.7 / (var(--font-scale-factor) * 3) * 1em);
+    font-size: calc(1.7 / (var(--font-scale-factor) * 1.5) * 1em);
   }
 
   .header-section {
-    padding: 10px 25px;
+    padding: 30px 45px;
   }
 
   .logo-container > img {
-    inline-size: 100px;
+    inline-size: 200px;
   }
 
   .intro-section {
-    padding-block: 30px;
+    padding-block: 60px;
   }
 
   .offer-logo {
-    block-size: 60%;
-    top: -10px;
-    left: 20px;
+    block-size: 80%;
+    top: -15px;
+    left: 30px;
   }
 
   .offer-container {
-    gap: 1rem;
-    padding-inline: 20px;
-    max-width: 70%;
+    gap: 3rem;
+    padding-inline: 40px;
   }
 
   .intro {
-    gap: 0.5rem;
+    gap: 2rem;
   }
 
   .features-title {
-    font-size: 1.5em;
-    line-height: 1.5;
+    font-size: 2.5em;
+    /* line-height: 1.5; */
   }
 
   .features-section img {
@@ -362,18 +361,18 @@ h4 {
   }
 
   .footer-section {
-    padding-block: 30px;
+    padding-block: 60px;
   }
 
   .footer-container {
-    padding-inline: 20px;
-    gap: 1rem;
+    padding-inline: 40px;
+    gap: 3rem;
   }
 
   .footer-logo {
-    top: 35%;
-    left: 10px;
-    block-size: 100px;
+    top: 120px;
+    left: 20px;
+    block-size: 300px;
   }
 }
 
@@ -447,54 +446,55 @@ h4 {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 600px) {
   h1 {
-    font-size: calc(4.5 / (var(--font-scale-factor) * 1.5) * 1em);
+    font-size: calc(4.5 / (var(--font-scale-factor) * 3) * 1em);
     line-height: 1.3;
   }
 
   h2 {
-    font-size: calc(2.8 / (var(--font-scale-factor) * 1.5) * 1em);
+    font-size: calc(2.8 / (var(--font-scale-factor) * 3) * 1em);
   }
 
   h3 {
-    font-size: calc(2.1 / (var(--font-scale-factor) * 1.5) * 1em);
+    font-size: calc(2.1 / (var(--font-scale-factor) * 3) * 1em);
   }
 
   h4 {
-    font-size: calc(1.7 / (var(--font-scale-factor) * 1.5) * 1em);
+    font-size: calc(1.7 / (var(--font-scale-factor) * 3) * 1em);
   }
 
   .header-section {
-    padding: 30px 45px;
+    padding: 10px 25px;
   }
 
   .logo-container > img {
-    inline-size: 200px;
+    inline-size: 100px;
   }
 
   .intro-section {
-    padding-block: 60px;
+    padding-block: 30px;
   }
 
   .offer-logo {
-    block-size: 80%;
-    top: -15px;
-    left: 30px;
+    block-size: 60%;
+    top: -10px;
+    left: 20px;
   }
 
   .offer-container {
-    gap: 3rem;
-    padding-inline: 40px;
+    gap: 1rem;
+    padding-inline: 20px;
+    max-width: 70%;
   }
 
   .intro {
-    gap: 2rem;
+    gap: 0.5rem;
   }
 
   .features-title {
-    font-size: 2.5em;
-    /* line-height: 1.5; */
+    font-size: 1.5em;
+    line-height: 1.5;
   }
 
   .features-section img {
@@ -502,17 +502,17 @@ h4 {
   }
 
   .footer-section {
-    padding-block: 60px;
+    padding-block: 30px;
   }
 
   .footer-container {
-    padding-inline: 40px;
-    gap: 3rem;
+    padding-inline: 20px;
+    gap: 1rem;
   }
 
   .footer-logo {
-    top: 120px;
-    left: 20px;
-    block-size: 300px;
+    top: 35%;
+    left: 10px;
+    block-size: 100px;
   }
 }
